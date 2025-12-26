@@ -1,0 +1,328 @@
+{
+    "_metadata": {
+        "project": "Sentiment Analysis Dataset",
+        "description": "Tokenized text data ready for NLP model input.",
+        "category": "Text Data",
+        "difficulty": "Intermediate",
+        "author": "Molla Samser (Founder)",
+        "designer_tester": "Rima Khatun",
+        "website": "https://rskworld.in",
+        "email": "help@rskworld.in | support@rskworld.in",
+        "phone": "+91 93305 39277",
+        "copyright": "© 2026 RSK World - Free Programming Resources & Source Code",
+        "preprocessing": {
+            "lowercase": true,
+            "remove_punctuation": true,
+            "remove_stopwords": false,
+            "tokenization": "word_tokenize"
+        }
+    },
+    "data": [
+        {
+            "id": 1,
+            "tokens": ["absolutely", "love", "this", "product", "it", "exceeded", "all", "my", "expectations", "and", "the", "quality", "is", "outstanding", "will", "definitely", "recommend", "to", "friends", "and", "family"],
+            "sentiment": "positive",
+            "label": 2
+        },
+        {
+            "id": 2,
+            "tokens": ["the", "service", "was", "okay", "nothing", "special", "delivery", "was", "on", "time", "but", "the", "packaging", "could", "have", "been", "better", "average", "experience", "overall"],
+            "sentiment": "neutral",
+            "label": 1
+        },
+        {
+            "id": 3,
+            "tokens": ["terrible", "experience", "the", "product", "arrived", "damaged", "and", "customer", "support", "was", "unhelpful", "complete", "waste", "of", "money", "never", "ordering", "again"],
+            "sentiment": "negative",
+            "label": 0
+        },
+        {
+            "id": 4,
+            "tokens": ["this", "is", "the", "best", "purchase", "i", "have", "made", "this", "year", "the", "features", "are", "amazing", "and", "it", "works", "exactly", "as", "advertised", "highly", "satisfied", "customer", "here"],
+            "sentiment": "positive",
+            "label": 2
+        },
+        {
+            "id": 5,
+            "tokens": ["received", "the", "package", "today", "it", "looks", "decent", "but", "have", "not", "tried", "it", "yet", "will", "update", "after", "a", "week", "of", "use"],
+            "sentiment": "neutral",
+            "label": 1
+        },
+        {
+            "id": 6,
+            "tokens": ["so", "disappointed", "with", "this", "purchase", "the", "description", "was", "misleading", "and", "the", "actual", "product", "is", "nothing", "like", "what", "was", "shown", "in", "the", "pictures"],
+            "sentiment": "negative",
+            "label": 0
+        },
+        {
+            "id": 7,
+            "tokens": ["great", "value", "for", "money", "the", "build", "quality", "is", "solid", "and", "it", "performs", "really", "well", "shipping", "was", "fast", "too", "very", "happy", "with", "this", "purchase"],
+            "sentiment": "positive",
+            "label": 2
+        },
+        {
+            "id": 8,
+            "tokens": ["just", "unboxed", "my", "order", "standard", "quality", "meets", "basic", "requirements", "not", "exceptional", "but", "does", "the", "job", "fair", "price", "for", "what", "you", "get"],
+            "sentiment": "neutral",
+            "label": 1
+        },
+        {
+            "id": 9,
+            "tokens": ["worst", "customer", "service", "i", "have", "ever", "experienced", "three", "weeks", "and", "my", "issue", "is", "still", "not", "resolved", "absolutely", "frustrating", "and", "unprofessional"],
+            "sentiment": "negative",
+            "label": 0
+        },
+        {
+            "id": 10,
+            "tokens": ["five", "stars", "this", "product", "changed", "my", "daily", "routine", "for", "the", "better", "excellent", "quality", "beautiful", "design", "and", "amazing", "functionality"],
+            "sentiment": "positive",
+            "label": 2
+        },
+        {
+            "id": 11,
+            "tokens": ["the", "product", "works", "as", "expected", "nothing", "extraordinary", "but", "nothing", "to", "complain", "about", "either", "average", "performance", "for", "the", "price", "point"],
+            "sentiment": "neutral",
+            "label": 1
+        },
+        {
+            "id": 12,
+            "tokens": ["completely", "broken", "on", "arrival", "requested", "a", "refund", "but", "still", "waiting", "after", "two", "weeks", "this", "company", "has", "lost", "a", "customer", "forever"],
+            "sentiment": "negative",
+            "label": 0
+        },
+        {
+            "id": 13,
+            "tokens": ["impressed", "beyond", "words", "the", "attention", "to", "detail", "is", "remarkable", "best", "investment", "i", "have", "made", "in", "a", "long", "time", "truly", "exceptional", "product"],
+            "sentiment": "positive",
+            "label": 2
+        },
+        {
+            "id": 14,
+            "tokens": ["received", "my", "order", "yesterday", "first", "impressions", "are", "neither", "good", "nor", "bad", "will", "need", "more", "time", "to", "form", "a", "complete", "opinion"],
+            "sentiment": "neutral",
+            "label": 1
+        },
+        {
+            "id": 15,
+            "tokens": ["do", "not", "waste", "your", "money", "on", "this", "garbage", "poor", "quality", "materials", "horrible", "design", "and", "falls", "apart", "after", "first", "use", "total", "scam"],
+            "sentiment": "negative",
+            "label": 0
+        },
+        {
+            "id": 16,
+            "tokens": ["amazing", "quality", "and", "fast", "delivery", "the", "product", "looks", "even", "better", "in", "person", "than", "in", "the", "photos", "exceeded", "my", "expectations"],
+            "sentiment": "positive",
+            "label": 2
+        },
+        {
+            "id": 17,
+            "tokens": ["it", "is", "an", "average", "product", "does", "what", "it", "is", "supposed", "to", "do", "but", "nothing", "more", "no", "complaints", "but", "no", "praises", "either"],
+            "sentiment": "neutral",
+            "label": 1
+        },
+        {
+            "id": 18,
+            "tokens": ["horrible", "experience", "from", "start", "to", "finish", "the", "product", "is", "a", "complete", "failure", "and", "the", "company", "refuses", "to", "acknowledge", "issues"],
+            "sentiment": "negative",
+            "label": 0
+        },
+        {
+            "id": 19,
+            "tokens": ["best", "thing", "i", "have", "bought", "online", "super", "impressed", "with", "the", "quality", "already", "ordered", "two", "more", "for", "gifts", "highly", "recommend"],
+            "sentiment": "positive",
+            "label": 2
+        },
+        {
+            "id": 20,
+            "tokens": ["package", "arrived", "in", "good", "condition", "the", "item", "seems", "okay", "will", "test", "it", "more", "before", "giving", "a", "final", "verdict"],
+            "sentiment": "neutral",
+            "label": 1
+        },
+        {
+            "id": 21,
+            "tokens": ["avoid", "this", "product", "at", "all", "costs", "it", "stopped", "working", "after", "just", "one", "week", "customer", "support", "is", "non", "existent"],
+            "sentiment": "negative",
+            "label": 0
+        },
+        {
+            "id": 22,
+            "tokens": ["wow", "just", "wow", "this", "exceeded", "every", "expectation", "i", "had", "worth", "every", "penny", "and", "more", "thank", "you", "for", "this", "amazing", "product"],
+            "sentiment": "positive",
+            "label": 2
+        },
+        {
+            "id": 23,
+            "tokens": ["standard", "shipping", "standard", "product", "standard", "everything", "nothing", "stood", "out", "positively", "or", "negatively", "about", "this", "purchase"],
+            "sentiment": "neutral",
+            "label": 1
+        },
+        {
+            "id": 24,
+            "tokens": ["extremely", "disappointed", "false", "advertising", "and", "poor", "quality", "demanded", "refund", "but", "got", "no", "response", "stay", "away"],
+            "sentiment": "negative",
+            "label": 0
+        },
+        {
+            "id": 25,
+            "tokens": ["i", "can", "not", "believe", "how", "good", "this", "is", "my", "whole", "family", "loves", "it", "best", "decision", "we", "made", "this", "month"],
+            "sentiment": "positive",
+            "label": 2
+        },
+        {
+            "id": 26,
+            "tokens": ["the", "product", "arrived", "on", "time", "packaging", "was", "adequate", "performance", "is", "exactly", "as", "described", "nothing", "more", "nothing", "less"],
+            "sentiment": "neutral",
+            "label": 1
+        },
+        {
+            "id": 27,
+            "tokens": ["total", "rip", "off", "the", "quality", "is", "nowhere", "near", "what", "was", "promised", "feeling", "completely", "cheated", "by", "this", "purchase"],
+            "sentiment": "negative",
+            "label": 0
+        },
+        {
+            "id": 28,
+            "tokens": ["outstanding", "this", "has", "become", "an", "essential", "part", "of", "my", "daily", "life", "can", "not", "imagine", "going", "back", "to", "what", "i", "used", "before"],
+            "sentiment": "positive",
+            "label": 2
+        },
+        {
+            "id": 29,
+            "tokens": ["it", "works", "that", "is", "about", "all", "i", "can", "say", "not", "impressed", "but", "not", "disappointed", "either", "just", "a", "regular", "product"],
+            "sentiment": "neutral",
+            "label": 1
+        },
+        {
+            "id": 30,
+            "tokens": ["save", "your", "money", "and", "buy", "something", "else", "this", "product", "is", "a", "joke", "worst", "purchase", "i", "have", "ever", "made", "online"],
+            "sentiment": "negative",
+            "label": 0
+        },
+        {
+            "id": 31,
+            "tokens": ["life", "changing", "product", "i", "have", "already", "recommended", "it", "to", "all", "my", "friends", "and", "colleagues", "simply", "the", "best", "out", "there"],
+            "sentiment": "positive",
+            "label": 2
+        },
+        {
+            "id": 32,
+            "tokens": ["decent", "quality", "for", "the", "price", "does", "the", "basic", "functions", "well", "might", "consider", "buying", "again", "in", "the", "future"],
+            "sentiment": "neutral",
+            "label": 1
+        },
+        {
+            "id": 33,
+            "tokens": ["absolutely", "terrible", "broke", "within", "days", "of", "purchase", "no", "warranty", "support", "complete", "waste", "of", "time", "and", "money"],
+            "sentiment": "negative",
+            "label": 0
+        },
+        {
+            "id": 34,
+            "tokens": ["perfect", "in", "every", "way", "from", "ordering", "to", "delivery", "to", "the", "product", "itself", "everything", "was", "flawless", "ten", "out", "of", "ten"],
+            "sentiment": "positive",
+            "label": 2
+        },
+        {
+            "id": 35,
+            "tokens": ["mixed", "feelings", "about", "this", "purchase", "some", "features", "are", "good", "others", "not", "so", "much", "overall", "it", "is", "just", "okay"],
+            "sentiment": "neutral",
+            "label": 1
+        },
+        {
+            "id": 36,
+            "tokens": ["regret", "buying", "this", "the", "reviews", "were", "misleading", "and", "the", "product", "quality", "is", "subpar", "very", "disappointed"],
+            "sentiment": "negative",
+            "label": 0
+        },
+        {
+            "id": 37,
+            "tokens": ["exceeded", "expectations", "the", "quality", "is", "superb", "and", "the", "price", "was", "very", "reasonable", "already", "planning", "my", "next", "purchase"],
+            "sentiment": "positive",
+            "label": 2
+        },
+        {
+            "id": 38,
+            "tokens": ["nothing", "special", "about", "this", "product", "it", "is", "functional", "but", "unremarkable", "average", "across", "all", "aspects"],
+            "sentiment": "neutral",
+            "label": 1
+        },
+        {
+            "id": 39,
+            "tokens": ["complete", "disaster", "product", "arrived", "late", "damaged", "and", "different", "from", "description", "absolute", "nightmare", "experience"],
+            "sentiment": "negative",
+            "label": 0
+        },
+        {
+            "id": 40,
+            "tokens": ["fantastic", "product", "my", "friends", "were", "so", "impressed", "they", "all", "ordered", "one", "too", "could", "not", "be", "happier", "with", "this", "purchase"],
+            "sentiment": "positive",
+            "label": 2
+        },
+        {
+            "id": 41,
+            "tokens": ["adequate", "for", "basic", "needs", "will", "not", "wow", "you", "but", "will", "not", "let", "you", "down", "either", "fair", "deal", "for", "the", "money"],
+            "sentiment": "neutral",
+            "label": 1
+        },
+        {
+            "id": 42,
+            "tokens": ["horrible", "quality", "control", "every", "unit", "i", "received", "had", "defects", "finally", "gave", "up", "and", "demanded", "a", "full", "refund"],
+            "sentiment": "negative",
+            "label": 0
+        },
+        {
+            "id": 43,
+            "tokens": ["this", "is", "everything", "i", "hoped", "for", "and", "more", "beautifully", "designed", "perfectly", "functional", "absolutely", "love", "it"],
+            "sentiment": "positive",
+            "label": 2
+        },
+        {
+            "id": 44,
+            "tokens": ["product", "is", "okay", "nothing", "wrong", "with", "it", "per", "se", "just", "does", "not", "stand", "out", "from", "the", "competition", "in", "any", "way"],
+            "sentiment": "neutral",
+            "label": 1
+        },
+        {
+            "id": 45,
+            "tokens": ["never", "again", "this", "company", "has", "lost", "all", "credibility", "with", "me", "product", "failed", "support", "failed", "everything", "failed"],
+            "sentiment": "negative",
+            "label": 0
+        },
+        {
+            "id": 46,
+            "tokens": ["brilliant", "such", "attention", "to", "detail", "and", "quality", "craftsmanship", "a", "true", "gem", "among", "similar", "products"],
+            "sentiment": "positive",
+            "label": 2
+        },
+        {
+            "id": 47,
+            "tokens": ["got", "what", "i", "paid", "for", "no", "surprises", "good", "or", "bad", "standard", "experience", "with", "a", "standard", "product"],
+            "sentiment": "neutral",
+            "label": 1
+        },
+        {
+            "id": 48,
+            "tokens": ["disappointed", "beyond", "words", "such", "high", "hopes", "based", "on", "the", "marketing", "but", "reality", "was", "very", "different"],
+            "sentiment": "negative",
+            "label": 0
+        },
+        {
+            "id": 49,
+            "tokens": ["simply", "phenomenal", "this", "has", "improved", "my", "life", "in", "ways", "i", "did", "not", "expect", "worth", "every", "single", "penny"],
+            "sentiment": "positive",
+            "label": 2
+        },
+        {
+            "id": 50,
+            "tokens": ["middle", "of", "the", "road", "product", "neither", "excited", "nor", "upset", "about", "this", "purchase", "it", "serves", "its", "purpose"],
+            "sentiment": "neutral",
+            "label": 1
+        }
+    ],
+    "label_mapping": {
+        "0": "negative",
+        "1": "neutral",
+        "2": "positive"
+    }
+}
+

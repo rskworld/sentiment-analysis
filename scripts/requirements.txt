@@ -1,0 +1,70 @@
+# ================================================================================
+# Sentiment Analysis Dataset - Python Dependencies
+# 
+# Project: Sentiment Analysis Dataset
+# Author: Molla Samser (Founder)
+# Designer & Tester: Rima Khatun
+# Website: https://rskworld.in
+# Email: help@rskworld.in | support@rskworld.in
+# 
+# © 2026 RSK World - Free Programming Resources & Source Code
+# 
+# Installation: pip install -r requirements.txt
+# ================================================================================
+
+# Core Dependencies (Required)
+# These are part of Python standard library, no installation needed:
+# - argparse
+# - csv
+# - json
+# - os
+# - re
+# - string
+# - collections
+# - datetime
+# - hashlib
+# - typing
+
+# Optional Dependencies for Enhanced Features
+# Install these for full functionality:
+
+# NLP Processing
+nltk>=3.8.1                    # Natural Language Toolkit
+spacy>=3.7.0                   # Industrial-strength NLP
+
+# Sentiment Analysis
+textblob>=0.17.1               # Simple NLP library
+vaderSentiment>=3.3.2          # VADER sentiment analyzer
+
+# Data Visualization
+matplotlib>=3.8.0              # Plotting library
+wordcloud>=1.9.2               # Word cloud generator
+numpy>=1.24.0                  # Numerical computing
+
+# Data Processing
+pandas>=2.1.0                  # Data manipulation (optional)
+
+# Machine Learning (Advanced)
+scikit-learn>=1.3.0            # ML algorithms
+# torch>=2.1.0                 # PyTorch (uncomment if needed)
+# transformers>=4.35.0         # Hugging Face transformers (uncomment if needed)
+
+# ================================================================================
+# Quick Install Commands:
+# 
+# Basic (required for core functionality):
+#   pip install nltk textblob vaderSentiment
+# 
+# Visualization:
+#   pip install matplotlib wordcloud numpy
+# 
+# Full install:
+#   pip install -r requirements.txt
+# 
+# Download NLTK data (run after install):
+#   python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords'); nltk.download('wordnet')"
+# 
+# Download spaCy model (optional):
+#   python -m spacy download en_core_web_sm
+# ================================================================================
+

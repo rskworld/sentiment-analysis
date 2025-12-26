@@ -1,0 +1,77 @@
+# ================================================================================
+# Sentiment Analysis Dataset - Cleaned/Preprocessed Data
+# 
+# Project: Sentiment Analysis Dataset
+# Description: Preprocessed text data with removed noise, special characters,
+#              and normalized text for NLP model training.
+# Category: Text Data
+# Difficulty: Intermediate
+# 
+# Author: Molla Samser (Founder)
+# Designer & Tester: Rima Khatun
+# Website: https://rskworld.in
+# Email: help@rskworld.in | support@rskworld.in
+# Phone: +91 93305 39277
+# 
+# © 2026 RSK World - Free Programming Resources & Source Code
+# All rights reserved.
+# 
+# Preprocessing steps applied:
+# - Lowercased all text
+# - Removed special characters and punctuation
+# - Removed extra whitespace
+# - Normalized contractions
+# ================================================================================
+
+id,cleaned_text,sentiment,word_count
+1,"absolutely love this product it exceeded all my expectations and the quality is outstanding will definitely recommend to friends and family",positive,22
+2,"the service was okay nothing special delivery was on time but the packaging could have been better average experience overall",neutral,20
+3,"terrible experience the product arrived damaged and customer support was unhelpful complete waste of money never ordering again",negative,17
+4,"this is the best purchase i have made this year the features are amazing and it works exactly as advertised highly satisfied customer here",positive,26
+5,"received the package today it looks decent but have not tried it yet will update after a week of use",neutral,20
+6,"so disappointed with this purchase the description was misleading and the actual product is nothing like what was shown in the pictures",negative,23
+7,"great value for money the build quality is solid and it performs really well shipping was fast too very happy with this purchase",positive,24
+8,"just unboxed my order standard quality meets basic requirements not exceptional but does the job fair price for what you get",neutral,21
+9,"worst customer service i have ever experienced three weeks and my issue is still not resolved absolutely frustrating and unprofessional",negative,19
+10,"five stars this product changed my daily routine for the better excellent quality beautiful design and amazing functionality",positive,18
+11,"the product works as expected nothing extraordinary but nothing to complain about either average performance for the price point",neutral,19
+12,"completely broken on arrival requested a refund but still waiting after two weeks this company has lost a customer forever",negative,19
+13,"impressed beyond words the attention to detail is remarkable best investment i have made in a long time truly exceptional product",positive,21
+14,"received my order yesterday first impressions are neither good nor bad will need more time to form a complete opinion",neutral,19
+15,"do not waste your money on this garbage poor quality materials horrible design and falls apart after first use total scam",negative,21
+16,"amazing quality and fast delivery the product looks even better in person than in the photos exceeded my expectations",positive,19
+17,"it is an average product does what it is supposed to do but nothing more no complaints but no praises either",neutral,21
+18,"horrible experience from start to finish the product is a complete failure and the company refuses to acknowledge issues",negative,19
+19,"best thing i have bought online super impressed with the quality already ordered two more for gifts highly recommend",positive,19
+20,"package arrived in good condition the item seems okay will test it more before giving a final verdict",neutral,18
+21,"avoid this product at all costs it stopped working after just one week customer support is non existent",negative,18
+22,"wow just wow this exceeded every expectation i had worth every penny and more thank you for this amazing product",positive,20
+23,"standard shipping standard product standard everything nothing stood out positively or negatively about this purchase",neutral,14
+24,"extremely disappointed false advertising and poor quality demanded refund but got no response stay away",negative,14
+25,"i can not believe how good this is my whole family loves it best decision we made this month",positive,19
+26,"the product arrived on time packaging was adequate performance is exactly as described nothing more nothing less",neutral,16
+27,"total rip off the quality is nowhere near what was promised feeling completely cheated by this purchase",negative,17
+28,"outstanding this has become an essential part of my daily life can not imagine going back to what i used before",positive,21
+29,"it works that is about all i can say not impressed but not disappointed either just a regular product",neutral,19
+30,"save your money and buy something else this product is a joke worst purchase i have ever made online",negative,19
+31,"life changing product i have already recommended it to all my friends and colleagues simply the best out there",positive,19
+32,"decent quality for the price does the basic functions well might consider buying again in the future",neutral,17
+33,"absolutely terrible broke within days of purchase no warranty support complete waste of time and money",negative,15
+34,"perfect in every way from ordering to delivery to the product itself everything was flawless ten out of ten",positive,19
+35,"mixed feelings about this purchase some features are good others not so much overall it is just okay",neutral,18
+36,"regret buying this the reviews were misleading and the product quality is subpar very disappointed",negative,15
+37,"exceeded expectations the quality is superb and the price was very reasonable already planning my next purchase",positive,17
+38,"nothing special about this product it is functional but unremarkable average across all aspects",neutral,14
+39,"complete disaster product arrived late damaged and different from description absolute nightmare experience",negative,12
+40,"fantastic product my friends were so impressed they all ordered one too could not be happier with this purchase",positive,19
+41,"adequate for basic needs will not wow you but will not let you down either fair deal for the money",neutral,20
+42,"horrible quality control every unit i received had defects finally gave up and demanded a full refund",negative,17
+43,"this is everything i hoped for and more beautifully designed perfectly functional absolutely love it",positive,15
+44,"product is okay nothing wrong with it per se just does not stand out from the competition in any way",neutral,19
+45,"never again this company has lost all credibility with me product failed support failed everything failed",negative,16
+46,"brilliant such attention to detail and quality craftsmanship a true gem among similar products",positive,14
+47,"got what i paid for no surprises good or bad standard experience with a standard product",neutral,16
+48,"disappointed beyond words such high hopes based on the marketing but reality was very different",negative,15
+49,"simply phenomenal this has improved my life in ways i did not expect worth every single penny",positive,17
+50,"middle of the road product neither excited nor upset about this purchase it serves its purpose",neutral,16
+
